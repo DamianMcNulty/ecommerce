@@ -1,0 +1,11 @@
+[![Build Status](https://travis-ci.org/NielMc/e-commerce.svg?branch=master)](https://travis-ci.org/NielMc/e-commerce)
+
+1. python -m virtualenv env
+2. .\env\Scripts\activate
+3. pip install -r requirements.txt
+4. django-admin startproject django_auth .
+5. django-admin startapp accounts
+6. python manage.py migrate
+7. python manage.py runserver
+8. python manage.py createsuperuser
+9. python manage.py collectstatic
