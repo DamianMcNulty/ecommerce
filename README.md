@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/NielMc/e-commerce.svg?branch=master)](https://travis-ci.org/NielMc/e-commerce)
+[![Build Status](https://travis-ci.org/DamianMcNulty/ecommerce.svg?branch=master)](https://travis-ci.org/DamianMcNulty/ecommerce)
 
 1. python -m virtualenv env
 2. .\env\Scripts\activate
