@@ -23,6 +23,10 @@ from checkout import urls as urls_checkout
 from products.views import all_products
 from django.views import static
 from .settings import MEDIA_ROOT
+from issue_tracker import urls as urls_issue_tracker
+from todo import urls as urls_todo
+from vis import urls as urls_vis
+from rank import urls as urls_rank
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
@@ -33,4 +37,8 @@ urlpatterns = [
     url(r'^checkout/', include(urls_checkout)),
     url(r'^search/', include(urls_search)),
     url(r'^media/(?P<path>.*)$', static.serve,{'document_root': MEDIA_ROOT}),
+    url(r'^issue_tracker/', include(urls_issue_tracker)),
+    url(r'^todo/', include(urls_todo)),
+    url(r'^visualisations/', include(urls_vis)),
+    url(r'^rank/', include(urls_rank)),
 ]

@@ -5,6 +5,7 @@
 3. pip install -r requirements.txt
 4. django-admin startproject django_auth .
 5. django-admin startapp accounts
+6. python3 manage.py makemigrations
 6. python manage.py migrate
 7. python manage.py runserver
 8. python manage.py createsuperuser
