@@ -1,5 +1,72 @@
 {% extends 'base.html' %}
 {% block content %}
 <h1 style="text-align: center">Rank</h1>
+<br>
+<br>
+<br>
+<h2>Bugs</h2>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#999;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#444;background-color:#F7FDFA;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#fff;background-color:#26ADE4;}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-7btt{font-weight:bold;border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
+</style>
+<table class="tg" style="width: 100%;"  cellpadding="10">
+  <tr>
+    <th class="tg-7btt">Name</th>
+    <th class="tg-amwm">Votes</th>
+  </tr>
+  {% for item in items|dictsortreversed:"vote" %}
+        <tr> 
+            {% if item.done %}
+            <td class="tg-baqh"><strike>{{ item.name }}</strike></td>
+            {% else %}
+            <td class="tg-baqh">{{ item.name }}</td>
+            {% endif %}
+            <td class="tg-baqh">{{ item.vote}}</td>
+        </tr>
+        {% empty %}
+        <p>You have nothing to do.</p>
+  {% endfor %}
+</table>
+
+<br>
+<br>
+<br>
+<h2>Features</h2>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#999;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#444;background-color:#F7FDFA;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#fff;background-color:#26ADE4;}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-7btt{font-weight:bold;border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
+</style>
+<table class="tg" style="width: 100%;"  cellpadding="10">
+  <tr>
+    <th class="tg-c3ow"></th>
+    <th class="tg-7btt">Name</th>
+    <th class="tg-amwm">Votes</th>
+  </tr>
+  <tr>
+    <td class="tg-baqh">1</td>
+    <td class="tg-baqh">Feature One</td>
+    <td class="tg-baqh">10</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">2</td>
+    <td class="tg-baqh">Feature Two</td>
+    <td class="tg-baqh">8</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">3</td>
+    <td class="tg-baqh">Feature Three</td>
+    <td class="tg-baqh">4</td>
+  </tr>
+</table>
 
 {% endblock %}

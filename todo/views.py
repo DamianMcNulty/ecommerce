@@ -41,3 +41,9 @@ def toggle_status_todo(request, id):
     item.done = not item.done
     item.save()
     return redirect(get_todo_list)
+
+def vote_todo(request, id):
+    item = get_object_or_404(Item, pk=id)
+    item.vote = item.vote + 1
+    item.save()
+    return redirect(get_todo_list)
