@@ -5,3 +5,4 @@ env.py
 *.png
 media/
 env
+node_modules

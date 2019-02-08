@@ -1,0 +1,23 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "| <a href=\"https://github.com/DamianMcNulty/ecommerce/stargazers\">     <img src=\"https://img.shields.io/github/stars/DamianMcNulty/ecommerce.svg?style=social\" alt=\"GitHub stars\"> </a> | [![Build Status](https://travis-ci.org/DamianMcNulty/ecommerce.svg?branch=master)](https://travis-ci.org/DamianMcNulty/ecommerce) |\r | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DamianMcNulty/ecommerce.git"
+  },
+  "keywords": [],
+  "author": "Damian McNulty",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DamianMcNulty/ecommerce/issues"
+  },
+  "homepage": "https://github.com/DamianMcNulty/ecommerce#readme",
+  "devDependencies": {
+    "cypress": "^3.1.5"
+  }
+}

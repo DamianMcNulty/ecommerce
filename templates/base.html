@@ -29,7 +29,7 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="{% url 'vis' %}"><i class="fa fa-user"></i> Visualisations</a></li>
+                    <li><a class="Visualisations__link" href="{% url 'vis' %}"><i class="fa fa-user"></i> Visualisations</a></li>
                     <li><a href="{% url 'rank' %}"><i class="fa fa-user"></i> Rank</a></li>
                     <li><a href="{% url 'todo' %}"><i class="fa fa-user"></i> Bugs</a></li>
                     {% if user.is_authenticated %}
