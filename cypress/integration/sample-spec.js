@@ -7,17 +7,17 @@ describe('homepage', function() {
     cy.title().should('include', 'Issue Tracker')
   });
 
-  it('click on Visualisations', () => {
-    cy.get('.Visualisations__link').click();
-  });
+  // it('click on Visualisations', () => {
+  //   cy.get('.Visualisations__link').click();
+  // });
 
-  it('click on Rank', () => {
-    cy.get('.Rank__link').click();
-  });
+  // it('click on Rank', () => {
+  //   cy.get('.Rank__link').click();
+  // });
 
-  it('click on Bugs', () => {
-    cy.get('.Bugs__link').click();
-  });
+  // it('click on Bugs', () => {
+  //   cy.get('.Bugs__link').click();
+  // });
 
   it('click on Register', () => {
     cy.get('.Register__link').click();
