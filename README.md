@@ -5,7 +5,7 @@
 
 ## Goal
 
-> To create a an ecommerce app using Django
+> To create an ecommerce app using Django
 
 ## Table of Contents
 
@@ -66,7 +66,7 @@
     python -m virtualenv env
     .\env\Scripts\activate
     pip install -r requirements.txt
-    python manage.py runserver.py
+    python manage.py runserver
     .\env\Scripts\deactivate
 
     django-admin startproject django_auth .
