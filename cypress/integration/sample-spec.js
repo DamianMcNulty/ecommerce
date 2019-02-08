@@ -27,6 +27,36 @@ describe('homepage', function() {
     cy.get('.Login__link').click();
   });
 
+  it('creates a new account', function(){
+    cy.contains('Register').click();
+    cy.get('#id_username')
+      .type('D1')
+      .should('have.value', 'D1');
+    cy.get('#id_email')
+      .type('d1@me.com')
+      .should('have.value', 'd1@me.com');
+    cy.get('#id_password1')
+      .type('password')
+      .should('have.value', 'password');
+    cy.get('#id_password2')
+      .type('password')
+      .should('have.value', 'password');
+    cy.get('.CreateAccount__button').click();
+    cy.get('.Logout__button').click();
+  });
+
+  it('contains "Login"', function(){
+    cy.contains('Log In').click();
+    cy.get('#id_username_or_email')
+      .type('D1')
+      .should('have.value', 'D1');
+    cy.get('#id_password')
+      .type('password')
+      .should('have.value', 'password');
+    cy.get('.Login__button').click();
+    cy.get('.Logout__button').click();
+  });
+
   // it('can take a screenshot', function(){
   //   cy.screenshot('site', {capture: 'runner'});
   // });
