@@ -1,7 +1,7 @@
 # eCommerce
 
 | <a href="https://github.com/DamianMcNulty/ecommerce/stargazers">     <img src="https://img.shields.io/github/stars/DamianMcNulty/ecommerce.svg?style=social" alt="GitHub stars"> </a> | [![Build Status](https://travis-ci.org/DamianMcNulty/ecommerce.svg?branch=master)](https://travis-ci.org/DamianMcNulty/ecommerce) |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
 
 ## Goal
 
@@ -16,9 +16,6 @@
 -   [Local Testing](#local-testing)
 -   [Deployment](#deployment)
 -   [Credits](#credits)
-    -   [Content](#content)
-    -   [Media](#media)
-    -   [Acknowledgements](#acknowledgements)
 -   [LICENSE](#license)
 
 ## Description
@@ -30,7 +27,6 @@
 [(Back to top)](#table-of-contents)
 
 ### User Stories
-
 
 ## Technologies Used
 
@@ -52,7 +48,11 @@
 
 9.  [Axe](https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd?hl=en)
 
-10. [Python 3.7.2](https://www.python.org/)
+10. [Python 3.6.8](https://www.python.org/)
+
+11. [Node v10.15.1](https://nodejs.org/)
+
+12. [NPM 6.4.1](https://www.npmjs.com/)
 
 ## Development Environment
 
@@ -83,20 +83,19 @@
     npm i
     npm run cy:open
 
+    python manage.py test
+
 ## Deployment
 
 [(Back to top)](#table-of-contents)
-
 
 ## Research
 
 [(Back to top)](#table-of-contents)
 
-
 ## Credits
 
 [(Back to top)](#table-of-contents)
-
 
 ## License
 
