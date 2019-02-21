@@ -11,9 +11,11 @@
 
 -   [Description](#description)
 -   [UX](#ux)
+-   [Architecture Diagram](#architecture-diagram)
 -   [Technologies Used](#technologies-used)
 -   [Development Environment](#development-environment)
 -   [Local Testing](#local-testing)
+-   [Cross Browser Testing](#cross-browser-testing)
 -   [Deployment](#deployment)
 -   [Credits](#credits)
 -   [LICENSE](#license)
@@ -27,6 +29,10 @@
 [(Back to top)](#table-of-contents)
 
 ### User Stories
+
+## Architecture diagram
+
+<img src="https://github.com/DamianMcNulty/ecommerce/blob/master/wireframes/ArchitectureDiagram.png" width=100%  alt="Architecture">
 
 ## Technologies Used
 
@@ -53,6 +59,8 @@
 11. [Node v10.15.1](https://nodejs.org/)
 
 12. [NPM 6.4.1](https://www.npmjs.com/)
+
+13. [Cross Browser Testing](https://crossbrowsertesting.com/)
 
 ## Development Environment
 
@@ -84,6 +92,12 @@
     npm run cy:open
 
     python manage.py test
+
+## Cross Browser testing
+
+[(Back to top)](#table-of-contents)
+
+see screenshots in cbt folder
 
 ## Deployment
 
