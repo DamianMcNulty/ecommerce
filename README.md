@@ -30,6 +30,14 @@
 
 ### User Stories
 
+### Wireframes
+
+see wireframes folder
+
+### Design Demonstration
+
+<img src="https://github.com/DamianMcNulty/ecommerce/blob/master/wireframes/AdobeXDCC.gif" width=30% height=350px alt="Demonstration">
+
 ## Architecture diagram
 
 <img src="https://github.com/DamianMcNulty/ecommerce/blob/master/wireframes/ArchitectureDiagram.png" width=100%  alt="Architecture">
