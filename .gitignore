@@ -2,7 +2,6 @@
 __pycache__
 .~c9*
 env.py
-*.png
 media/
 env
 node_modules
