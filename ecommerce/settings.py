@@ -48,7 +48,6 @@ INSTALLED_APPS = [
     'storages',
     'issue_tracker',
     'todo',
-    'vis',
     'rank',
 ]
 
