@@ -31,7 +31,6 @@
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
                     {% if user.is_authenticated %}
-                    <li><a class="Rank__link" href="{% url 'rank' %}"><i class="fa fa-user"></i> Analysis</a></li>
                     <li><a class="Bugs__link" href="{% url 'todo' %}"><i class="fa fa-user"></i> Bugs</a></li>
                         <li><a href="{% url 'issue_tracker' %}"><i class="fa fa-user"></i> Features</a></li>
                         <li>
@@ -68,7 +67,7 @@
                 <button type="submit">Search</button>
             </form>
         </div> -->
-        {% block content %} {% endblock %}
+        {% block content %}{% endblock content %}
     </main>
     <!-- <footer>
         <div class="container text-center">

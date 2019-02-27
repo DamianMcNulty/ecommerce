@@ -48,7 +48,7 @@ INSTALLED_APPS = [
     'storages',
     'issue_tracker',
     'todo',
-    'rank',
+    'rank'
 ]
 
 MIDDLEWARE = [
