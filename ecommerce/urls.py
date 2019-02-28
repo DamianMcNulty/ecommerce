@@ -28,8 +28,8 @@ from rank import urls as urls_rank
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    # url(r'^$', all_products, name='index'),
-    url(r'^$', include(urls_rank)),
+    url(r'^$', all_products, name='index'),
+    url(r'^rank/', include(urls_rank)),
     url(r'^accounts/', include(urls_accounts)),
     url(r'^products/', include(urls_products)),
     url(r'^cart/', include(urls_cart)),
