@@ -24,11 +24,29 @@
 
 [(Back to top)](#table-of-contents)
 
+This project is an application for software developers and their users, so users can report problems with an application that they are using and can request new features. Software developers can earn an income from any new feature requests from the users of the application.
+
 ## UX
 
 [(Back to top)](#table-of-contents)
 
 ### User Stories
+
+A user does not have to pay to use the issue tracker service. 
+A user does not have to pay for bug fixes by the developer. 
+A user must pay for the developer to develop additional features. 
+A user can create a ticket. 
+A user can comment on a ticket. 
+A user can see the status of the ticket (e.g. ‘to do,’ ‘doing,’ or ‘done’). 
+A user can upvote bugs. A user can upvote features. 
+A user can upvote bugs for free. 
+A user needs to pay to upvote a feature. (with a minimum amount of your choice) to pay for your time in working on it. 
+A user can see how many bugs or features are tended to on a daily, weekly and monthly basis 
+A user can see the highest-voted bugs and features. 
+A user can read a blog. 
+A user gains extra perks for active participation. 
+A user can read information describing the application. 
+A new developer can setup a development environment quickly using the provided documentation.
 
 ### Wireframes
 
@@ -85,6 +103,8 @@ see wireframes folder
     python manage.py runserver
     .\env\Scripts\deactivate
 
+### django commands
+
     django-admin startproject django_auth .
     django-admin startapp accounts
     python3 manage.py makemigrations
@@ -111,9 +131,21 @@ see screenshots in cbt folder
 
 [(Back to top)](#table-of-contents)
 
+    heroku login
+    heroku apps
+    heroku create damianmcnulty-ecommerce --region eu
+    heroku addons:create heroku-postgresql:hobby-dev
+    heroku config:set SECRET_KEY="..."
+    heroku config:set DATABASE_URL="..."
+    heroku config:set DISABLE_COLLECTSTATIC=1
+    echo web: gunicorn django_todo.wsgi:application > Procfile
+    pip install dj-database-url psycopg2 whitenoise gunicorn Pillow
+
 ## Research
 
 [(Back to top)](#table-of-contents)
+
+-   <https://stackoverflow.com/questions/48729966/how-can-i-call-multiple-views-in-one-url-address-in-django>
 
 ## Credits
 
