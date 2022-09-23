@@ -15,7 +15,6 @@
 -   [Technologies Used](#technologies-used)
 -   [Development Environment](#development-environment)
 -   [Local Testing](#local-testing)
--   [Cross Browser Testing](#cross-browser-testing)
 -   [Deployment](#deployment)
 -   [Credits](#credits)
 -   [LICENSE](#license)
@@ -32,32 +31,25 @@ This project is an application for software developers and their users, so users
 
 ### User Stories
 
-A user does not have to pay to use the issue tracker service. 
-A user does not have to pay for bug fixes by the developer. 
-A user must pay for the developer to develop additional features. 
-A user can create a ticket. 
-A user can comment on a ticket. 
-A user can see the status of the ticket (e.g. ‘to do,’ ‘doing,’ or ‘done’). 
-A user can upvote bugs. A user can upvote features. 
-A user can upvote bugs for free. 
-A user needs to pay to upvote a feature. (with a minimum amount of your choice) to pay for your time in working on it. 
-A user can see how many bugs or features are tended to on a daily, weekly and monthly basis 
-A user can see the highest-voted bugs and features. 
-A user can read a blog. 
-A user gains extra perks for active participation. 
-A user can read information describing the application. 
-A new developer can setup a development environment quickly using the provided documentation.
+1. A user does not have to pay to use the issue tracker service. 
+2. A user does not have to pay for bug fixes by the developer. 
+3. A user must pay for the developer to develop additional features. 
+4. A user can create a ticket. 
+5. A user can comment on a ticket. 
+6. A user can see the status of the ticket (e.g. ‘to do,’ ‘doing,’ or ‘done’). 
+7. A user can upvote bugs. A user can upvote features. 
+8. A user can upvote bugs for free. 
+9. A user needs to pay to upvote a feature. (with a minimum amount of your choice) to pay for your time in working on it. 
+10. A user can see how many bugs or features are tended to on a daily, weekly and monthly basis 
+11. A user can see the highest-voted bugs and features. 
+12. A user can read a blog. 
+13. A user gains extra perks for active participation. 
+14. A user can read information describing the application. 
+15. A new developer can setup a development environment quickly using the provided documentation.
 
 ### Wireframes
 
 see wireframes folder
-
-### Design Demonstration
-
-
-## Architecture diagram
-
-<img src="https://github.com/DamianMcNulty/ecommerce/blob/master/wireframes/ArchitectureDiagram.png" width=100%  alt="Architecture">
 
 ## Technologies Used
 
@@ -119,12 +111,6 @@ see wireframes folder
     npm run cy:open
 
     python manage.py test
-
-## Cross Browser testing
-
-[(Back to top)](#table-of-contents)
-
-see screenshots in cbt folder
 
 ## Deployment
 
