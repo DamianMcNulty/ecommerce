@@ -11,7 +11,6 @@
 
 -   [Description](#description)
 -   [UX](#ux)
--   [Architecture Diagram](#architecture-diagram)
 -   [Technologies Used](#technologies-used)
 -   [Development Environment](#development-environment)
 -   [Local Testing](#local-testing)
