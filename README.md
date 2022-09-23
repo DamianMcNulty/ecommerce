@@ -76,8 +76,6 @@ see wireframes folder
 
 12. [NPM 6.4.1](https://www.npmjs.com/)
 
-13. [Cross Browser Testing](https://crossbrowsertesting.com/)
-
 ## Development Environment
 
 [(Back to top)](#table-of-contents)
