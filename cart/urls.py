@@ -1,4 +1,4 @@
-from django.conf.urls import url
+from django.urls import re_path as url
 from .views import view_cart, add_to_cart, adjust_cart
 
 urlpatterns = [
