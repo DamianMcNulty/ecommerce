@@ -1,4 +1,4 @@
-from django.conf.urls import url
+from django.urls import re_path as url
 from .views import get_todo_list, create_an_item, edit_an_item, toggle_status_todo, vote_todo
 
 urlpatterns = [
