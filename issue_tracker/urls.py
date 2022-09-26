@@ -1,4 +1,4 @@
-from django.conf.urls import url
+from django.urls import re_path as url
 from .views import issue_tracker, create_an_issue, edit_an_issue, toggle_status_issue
 
 urlpatterns = [
