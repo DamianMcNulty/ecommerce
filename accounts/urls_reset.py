@@ -1,4 +1,4 @@
-from django.urls import url
+from django.urls import re_path as url
 from django.core.urlresolvers import reverse_lazy
 from django.contrib.auth.views import password_reset, password_reset_done, password_reset_confirm, password_reset_complete
 
