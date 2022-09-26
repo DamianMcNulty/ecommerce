@@ -1,11 +1,11 @@
-from django.urls import include, re_path
+from django.urls import include, re_path as url
 from . import urls_reset
 from .views import index, register, profile, logout, login
 
 urlpatterns = [
-    re_path(r'^register/$', register, name='register'),
-    re_path(r'^profile/$', profile, name='profile'),
-    re_path(r'^logout/$', logout, name='logout'),
-    re_path(r'^login/$', login, name='login'),
-    re_path(r'^password-reset/', include(urls_reset)),
+    url(r'^register/$', register, name='register'),
+    url(r'^profile/$', profile, name='profile'),
+    url(r'^logout/$', logout, name='logout'),
+    url(r'^login/$', login, name='login'),
+    url(r'^password-reset/', include(urls_reset)),
 ]
