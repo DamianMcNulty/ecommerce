@@ -7,4 +7,4 @@ class TestCartConfig(TestCase):
 
     def test_app(self):
         self.assertEqual("cart", CartConfig.name)
-        self.assertEqual("cart", apps.get_app_config("todo").name) 
+        self.assertEqual("cart", apps.get_app_config("todo").name)
