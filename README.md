@@ -1,6 +1,6 @@
 # eCommerce
 
-| <a href="https://github.com/DamianMcNulty/ecommerce/stargazers">     <img src="https://img.shields.io/github/stars/DamianMcNulty/ecommerce.svg?style=social" alt="GitHub stars"> </a> | [![Build Status](https://travis-ci.org/DamianMcNulty/ecommerce.svg?branch=master)](https://travis-ci.org/DamianMcNulty/ecommerce) |
+| <a href="https://github.com/DamianMcNulty/ecommerce/stargazers">     <img src="https://img.shields.io/github/stars/DamianMcNulty/ecommerce.svg?style=social" alt="GitHub stars"> </a> | [![CircleCI](https://dl.circleci.com/status-badge/img/gh/DamianMcNulty/ecommerce/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/DamianMcNulty/ecommerce/tree/master) |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
 
 ## Goal
