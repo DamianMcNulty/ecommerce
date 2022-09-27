@@ -14,6 +14,7 @@ jmespath
 olefile
 psycopg2-binary
 python-dateutil
+pytest
 pytz
 requests
 s3transfer
