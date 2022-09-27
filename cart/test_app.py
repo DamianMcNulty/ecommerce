@@ -1,6 +1,6 @@
 from django.apps import apps
 from django.test import TestCase
-from .apps import TodoConfig
+from .apps import CartConfig
 
 
 class TestCartConfig(TestCase):
