@@ -50,7 +50,6 @@ INSTALLED_APPS = [
     'checkout',
     'storages',
     'issue_tracker',
-    'todo',
     'rank'
 ]
 
