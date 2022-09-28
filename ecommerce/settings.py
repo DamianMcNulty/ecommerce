@@ -37,7 +37,7 @@ ALLOWED_HOSTS = [os.environ.get('C9_HOSTNAME'), os.environ.get('HOSTNAME'), 'loc
 # Application definition
 
 INSTALLED_APPS = [
-    'django.contrib.admin.apps.SimpleAdminConfig',
+    'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -50,7 +50,8 @@ INSTALLED_APPS = [
     'checkout',
     'storages',
     'issue_tracker',
-    'rank'
+    'rank',
+    'todo'
 ]
 
 MIDDLEWARE = [
